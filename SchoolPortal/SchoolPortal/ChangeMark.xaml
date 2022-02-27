@@ -1,0 +1,19 @@
+﻿<Window x:Class="SchoolPortal.ChangeMark"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolPortal"
+        mc:Ignorable="d"
+        Title="ChangeMark" Height="121" Width="151">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center">Введите оценку:</TextBlock>
+        <TextBox x:Name="TBoxMark" Grid.Row="1" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" HorizontalContentAlignment="Center"/>
+        <Button Grid.Row="2" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" HorizontalContentAlignment="Center" Click="Button_Click">ОК</Button>
+    </Grid>
+</Window>

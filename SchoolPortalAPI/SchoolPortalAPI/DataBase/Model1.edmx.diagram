@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4fd315a07b274e81926515f556e47f18" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolPortalModel.Chat" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.Class" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.Group" Width="1.5" PointX="6" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.Lessons" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.Marks" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.TimeTable" Width="1.5" PointX="5.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolPortalModel.User" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Chat_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Chat_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Group_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_TimeTable_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Group_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Lessons_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Marks_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_TimeTable_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolPortalModel.FK_Marks_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
